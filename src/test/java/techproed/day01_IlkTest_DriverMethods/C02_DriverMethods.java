@@ -18,14 +18,14 @@ public class C02_DriverMethods {
 
         //getCurrentUrl Methodu: icinde bulunulan sayfanin url inin string olarak verir.
         System.out.println("Amazon actual url:"+driver.getCurrentUrl());
-        System.out.println("Techproed actual url:"+driver.getCurrentUrl());//i822BDB0CA6BDE5A968F7B36D3B029B35
+        System.out.println("Techproed actual url:"+driver.getCurrentUrl());
 
         //getPageSource Methodu: Icinde bulunulan sayfanin kaynak kodlarini verir. cok kullanmamiz gerekmeyebilir.
        /// System.out.println("Amazon kaynak kodlari: "+driver.getPageSource());
 
         //getWindowHandle Methodu: icinde bulunulan sayfanin handle degerlerini getirir. Bu handle degeri ile
         //sayfalar arasi gecis icin kullaniriz.
-        System.out.println("Techpro window Handle degeri"+driver.getWindowHandle());
+        System.out.println("Techpro window Handle degeri"+driver.getWindowHandle());//i822BDB0CA6BDE5A968F7B36D3B029B35
 
 
     }
